@@ -1,0 +1,27 @@
+name: academic_sms
+description: Academic School Management System
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.1.1
+  crypto: ^3.0.3
+  uuid: ^4.1.0
+  intl: ^0.18.1
+  pdf: ^3.10.7
+  printing: ^5.11.0
+  qr_flutter: ^4.1.0
+  image_picker: ^1.0.4
+  shared_preferences: ^2.2.2
+
+flutter:
+  uses-material-design: true
